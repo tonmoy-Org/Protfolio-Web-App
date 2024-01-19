@@ -1,0 +1,51 @@
+@keyframes example {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        border: 5px solid #667EEA;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        /* Add shadow at the beginning */
+        transform: scale(1);
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+        border: 5px solid #667EEA;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        /* Add shadow at 50% keyframe */
+        transform: scale(0.9);
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        border: 5px solid #667EEA;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        /* Add shadow at the end */
+        transform: scale(1);
+    }
+}
+
+.example img {
+    animation: example 8s ease-in-out infinite 1s;
+}
+
+.banner-bg {
+    background: linear-gradient(90deg, #4831d4 72%, #ccf381 28%)
+}
+
+.gradient-hover {
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 0.5s ease;
+}
+
+.gradient-hover:hover,
+.gradient-hover:focus {
+    background-position: 0 0;
+    border: 4px solid #fff;
+}
+
+@media (max-width: 575.98px) {
+    .banner-bg {
+        background: linear-gradient(180deg, #4831d4 70%, #ccf381 30%)
+    }
+}
