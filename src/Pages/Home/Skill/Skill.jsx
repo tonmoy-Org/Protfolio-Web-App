@@ -10,7 +10,7 @@ const Skill = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1200">
                 <h2 className="text-4xl font-bold text-[#4831d4]">Skills</h2>
-                <p className="py-3 text-[18px] text-[#3d155f]">This are the technologies I have worked with.</p>
+                <p className="py-3 text-[18px] text-[#3d155f] w-9/12 mx-auto">This are the technologies I have worked with.</p>
             </div>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 lg:mt-12 mt-4 w-10/12 lg:w-9/12 mx-auto' data-aos="fade-up"
                 data-aos-easing="linear"

@@ -1,32 +1,32 @@
-@keyframes example {
-    0% {
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-        border: 5px solid #667EEA;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        /* Add shadow at the beginning */
-        transform: scale(1);
-    }
+.example {
+    position: relative;
+    display: inline-block;
+}
 
-    50% {
-        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-        border: 5px solid #667EEA;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        /* Add shadow at 50% keyframe */
-        transform: scale(0.9);
-    }
-
-    100% {
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-        border: 5px solid #667EEA;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        /* Add shadow at the end */
-        transform: scale(1);
-    }
+.example::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 90%;
+    height: 90%;
+    box-sizing: border-box;
+    border: 3px solid white;
+    z-index: -1;
 }
 
 .example img {
-    animation: example 8s ease-in-out infinite 1s;
+    display: block;
+    position: relative;
+    z-index: 1;
 }
+
+.example {
+    transform: translate(4%, 2%);
+    padding: 0px 30px 30px 0px;
+}
+
+
 
 .banner-bg {
     background: linear-gradient(90deg, #4831d4 72%, #ccf381 28%)
@@ -46,6 +46,14 @@
 
 @media (max-width: 575.98px) {
     .banner-bg {
-        background: linear-gradient(180deg, #4831d4 70%, #ccf381 30%)
+        background: linear-gradient(180deg, #4831d4 61%, #ccf381 3%)
+    }
+    .example img {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .example {
+        transform: translate(16%, -8%);
+        padding: 0px 20px 20px 0px;
     }
 }
