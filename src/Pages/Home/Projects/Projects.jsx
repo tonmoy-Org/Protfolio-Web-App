@@ -53,7 +53,6 @@ const Projects = () => {
                                                         src={p5}
                                                         alt=""
                                                     />
-                                                    <p className="text-white font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Take a look..</p>
                                                     <div className="absolute inset-x-0 bottom-0 text-center opacity-0 transform translate-y-2/4 group-hover:translate-y-0 group-hover:opacity-100 transition duration-700 ease-in-out">
                                                         <button className="bg py-2 px-4 w-full transition-opacity text-white bg-gradient-to-r from-[#3d155f] to-[#cbf3819b] hover:gradient-hover focus:outline-none focus:border-blue-300 font-semibold relative z-10">
                                                             <a href="https://goldsmith-org.web.app/">Live preview</a>
@@ -68,7 +67,7 @@ const Projects = () => {
                                                     src={s1}
                                                     alt=""
                                                 />
-                                                <p className="text-white font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Easy to search items.</p>
+                                            
                                                 <div className="absolute inset-x-0 bottom-0 text-center opacity-0 transform translate-y-2/4 group-hover:translate-y-0 group-hover:opacity-100 transition duration-700 ease-in-out">
                                                     <button className="bg py-2 px-4 w-full transition-opacity  text-white bg-gradient-to-r from-[#3d155f] to-[#cbf3819b] hover:gradient-hover focus:outline-none focus:border-blue-300 font-semibold">
                                                         <a href="https://goldsmith-org.web.app/">Live preview</a>
@@ -106,7 +105,7 @@ const Projects = () => {
                                                     src={s5}
                                                     alt=""
                                                 />
-                                                <p className="text-[#badd76]] font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Easy payment system.</p>
+                                               
                                                 <div className="absolute inset-x-0 bottom-0 text-center opacity-0 transform translate-y-2/4 group-hover:translate-y-0 group-hover:opacity-100 transition duration-700 ease-in-out">
                                                     <button className="bg py-2 px-4 w-full transition-opacity  text-white bg-gradient-to-r from-[#3d155f] to-[#cbf3819b] hover:gradient-hover focus:outline-none focus:border-blue-300 font-semibold">
                                                         <a href="https://goldsmith-org.web.app/">Live preview</a>
@@ -119,7 +118,7 @@ const Projects = () => {
                                                     src={s6}
                                                     alt=""
                                                 />
-                                                <p className="text-white font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Add to cart & Checkout.</p>
+                                                {/* <p className="text-white font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Add to cart & Checkout.</p> */}
                                                 <div className="absolute inset-x-0 bottom-0 text-center opacity-0 transform translate-y-2/4 group-hover:translate-y-0 group-hover:opacity-100 transition duration-700 ease-in-out">
                                                     <button className="bg py-2 px-4 w-full transition-opacity  text-white bg-gradient-to-r from-[#3d155f] to-[#cbf3819b] hover:gradient-hover focus:outline-none focus:border-blue-300 font-semibold">
                                                         <a href="https://goldsmith-org.web.app/">Live preview</a>
