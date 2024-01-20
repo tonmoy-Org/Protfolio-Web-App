@@ -42,3 +42,8 @@
 .gradient-hover:hover {
   background-position: 0 0;
 }
+
+.live-bg{
+  background-color: #3d155f;
+}
+

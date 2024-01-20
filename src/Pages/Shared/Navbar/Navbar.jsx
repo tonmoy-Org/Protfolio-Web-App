@@ -37,7 +37,7 @@ const Navbar = () => {
                 <div>
                     <Link className="flex items-center" to='/'>
                         <img className="w-10" src={logo} alt="" />
-                        <span className="text-[20px] font-bold">TONMOY</span>
+                        <span className="font-extrabold text-[1.6rem] text-[#4831d4] font-mono">Tonmoy</span>
                     </Link>
                 </div>
                 <span onClick={() => setOpen(!open)} >{open === true
@@ -48,9 +48,12 @@ const Navbar = () => {
             <div className={`absolute lg:static bg-white z-10 lg:px-40 w-full ease-out duration-300 ${open ? 'top-[calc(100% - 40px)]' : '-top-full'}`}>
                 <div className="lg:flex lg:items-center lg:justify-between">
                     <Link className="flex items-center" to='/'>
-                        <img className="w-10  hidden lg:block" src={logo} alt="" />
-                        <span className="text-[20px]  hidden lg:block font-bold">TONMOY</span>
+                        <img className="w-10 hidden lg:block" src={logo} alt="" />
+                        <span className="text-[1.6rem] font-mono hidden lg:block font-extrabold text-[#4831d4]">
+                            Tonmoy
+                        </span>
                     </Link>
+
                     <div className='lg:flex lg:justify-end lg:items-center gap-8 lg:py-2'>
                         {
                             routes.map(route =>
@@ -64,7 +67,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav >
 
     );
 };

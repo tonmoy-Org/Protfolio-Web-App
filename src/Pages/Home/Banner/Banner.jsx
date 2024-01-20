@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className='lg:pt-14'>
                         <div className='text-[#ccf381] font-extrabold lg:text-4xl md:text-[3rem] text-[2.5rem]'>
                             <h2 className='lg:leading-relaxed'>
-                                FULL STACK <br /> DEVELOPER | MERN<span className='lg:text-5xl text-white'>.</span></h2>
+                                FULL STACK <br /> DEVELOPER | MERN<span className='text-white'>.</span></h2>
                         </div>
                         <p className='mt-4 lg:leading-relaxed lg:text-[18px] text-white'>Building seamless digital experiences with MERN stack, I bring <br />full-stack expertise and a passion for creating innovative solutions.</p>
                     </div>

@@ -5,6 +5,7 @@ import facebook from '../../../assets/Icons/facebook.png'
 import moment from 'moment';
 import ScrollToTop from "react-scroll-to-top";
 
+
 const Footer = () => {
     return (
         <div>
@@ -36,9 +37,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <footer className="footer footer-center p-8 bg-[#3a3a3a] text-[#fff] rounded">
+            <footer className="footer footer-center p-12 bg-[#3d155f] text-[#badd76] rounded">
                 <div>
-                    <p className='text-[17px] mb-10'>Copyright © {moment().format('yyyy')} Md. Tanvir Hasan Tonmoy</p>
+                    <p className='text-[17px] mb-20'>Copyright © {moment().format('yyyy')} Md. Tanvir Hasan Tonmoy</p>
                 </div>
             </footer>
         </div>
