@@ -16,7 +16,7 @@ const Banner = () => {
                     </div>
                     <div>
                         <div className='mt-5'>
-                        <Link to='https://drive.google.com/file/d/1e-ID2RaXfQjEKnajEtF8o34TKUz6IQrP/view?usp=sharing'> <button className="px-8 py-3 text-white bg-gradient-to-r from-blue-500 to-[#cbf3819b] hover:gradient-hover  focus:ring focus:border-blue-500 font-semibold">
+                        <Link to='https://drive.google.com/file/d/1e-ID2RaXfQjEKnajEtF8o34TKUz6IQrP/view?usp=sharing'> <button className="px-8 py-3 text-white bg-gradient-to-r from-blue-500 to-[#cbf3819b] hover:gradient-hover focus:border-blue-500 font-semibold">
                                 Download Resume
                             </button></Link>
                         </div>

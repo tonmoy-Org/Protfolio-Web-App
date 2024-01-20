@@ -22,16 +22,16 @@ const Footer = () => {
             <div>
                 <div className="grid grid-flow-col gap-4">
                     <div className='flex gap-4 justify-center my-5'>
-                        <div className='transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 duration-300'>
+                        <div className='transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 duration-100'>
                             <a href="https://github.com/Tonmoy-Org"> <img className='w-10 h-10 bg-[#fff] rounded-full' src={github} alt="" /></a>
                         </div>
-                        <div className='transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 duration-300'>
+                        <div className='transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 duration-100'>
                             <a href="https://www.linkedin.com/in/md-tanvirhasantonmoy/"> <img className='w-10 h-10 bg-[#fff] rounded-md' src={linkedin} alt="" /></a>
                         </div>
-                        <div className='transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 duration-300'>
+                        <div className='transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 duration-100'>
                             <a href="https://twitter.com/tonmoyOrg"> <img className='w-10 h-10' src={twitter} alt="" /></a>
                         </div>
-                        <div className='transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 duration-300'>
+                        <div className='transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 duration-100'>
                             <a href="https://www.facebook.com/md.tanvirhasantonmoy.org?mibextid=ZbWKwL"> <img className='w-10 h-10' src={facebook} alt="" /></a>
                         </div>
                     </div>
