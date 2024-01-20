@@ -76,9 +76,7 @@ const Contact = () => {
                         to say hello? Go ahead.</p>
                 </div>
             </div>
-            <div data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-duration="1000" className='flex justify-center mt-10'>
+            <div className='flex justify-center mt-10'>
                 <form ref={form} onSubmit={sendEmail} className='lg:w-[750px] w-[300px]'>
                     <div className='flex justify-center gap-20'>
                         <div className='lg:w-[400px] w-[300px]'>

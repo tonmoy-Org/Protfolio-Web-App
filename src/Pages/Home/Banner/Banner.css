@@ -46,14 +46,82 @@
 
 @media (max-width: 575.98px) {
     .banner-bg {
-        background: linear-gradient(180deg, #4831d4 61%, #ccf381 3%)
+        background: linear-gradient(180deg, #4831d4 67%, #ccf381 33%)
     }
-    .example img {
-        width: 250px;
-        margin: 0 auto;
+
+    .container-ex {
+        width: 100%;
+        max-width: 240px;
+        margin: auto;
     }
+
     .example {
-        transform: translate(16%, -8%);
+        transform: translate(0%, 0%);
+        padding: 0px 10px 10px 0px;
+    }
+
+    .example img {
+        width: 100%;
+        max-width: 240px;
+        display: block;
+        margin: auto;
+    }
+}
+
+
+@media (min-width: 577.98px) {
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .description {
+        width: 380px;
+    }
+
+    .banner-container {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 28px;
+    }
+
+    .banner-bg {
+        background: linear-gradient(90deg, #4831d4 70%, #ccf381 30%)
+    }
+
+    .example {
+        transform: translate(-20%, -8%);
         padding: 0px 20px 20px 0px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .example::before {
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        width: 90%;
+        height: 90%;
+        box-sizing: border-box;
+        border: 3px solid white;
+        z-index: -1;
+    }
+
+    .example img {
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+
+    .example {
+        transform: translate(4%, 2%);
+        padding: 0px 30px 30px 0px;
+    }
+
+
+
+    .banner-bg {
+        background: linear-gradient(90deg, #4831d4 72%, #ccf381 28%)
     }
 }

@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <footer className="footer footer-center p-12 bg-[#3d155f] text-[#badd76] rounded">
+            <footer className="footer footer-center p-12 bg-[#3d155f] text-[#badd76]">
                 <div>
                     <p className='text-[17px] mb-20'>Copyright © {moment().format('yyyy')} Md. Tanvir Hasan Tonmoy</p>
                 </div>
