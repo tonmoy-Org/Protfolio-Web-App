@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="lg:flex gap-4 justify-center items-center banner-container">
                 <div className='mx-10 lg:mx-0'>
                     <div className='lg:pt-14'>
-                        <div className='text-[#ccf381] font-extrabold lg:text-4xl md:text-[3rem] text-[2.5rem]'>
+                        <div className='text-[#ccf381] font-extrabold lg:text-4xl text-[2.5rem]'>
                             <h2 className='lg:leading-relaxed banner-title'>
                                 FULL STACK <br /> DEVELOPER | MERN<span className='text-white'>.</span></h2>
                         </div>
