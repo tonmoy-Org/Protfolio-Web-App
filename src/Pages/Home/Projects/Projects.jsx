@@ -43,7 +43,7 @@ const Projects = () => {
                                                 delay: 2500,
                                                 disableOnInteraction: false,
                                             }}
-                                            modules={[Autoplay,Pagination]}
+                                            modules={[Autoplay, Pagination]}
                                             className="mySwiper"
                                         >
                                             <SwiperSlide>
@@ -67,7 +67,7 @@ const Projects = () => {
                                                     src={s1}
                                                     alt=""
                                                 />
-                                            
+
                                                 <div className="absolute inset-x-0 bottom-0 text-center opacity-0 transform translate-y-2/4 group-hover:translate-y-0 group-hover:opacity-100 transition duration-700 ease-in-out">
                                                     <button className="bg py-2 px-4 w-full transition-opacity  text-white bg-gradient-to-r from-[#3d155f] to-[#cbf3819b] hover:gradient-hover focus:outline-none focus:border-blue-300 font-semibold">
                                                         <a href="https://goldsmith-org.web.app/">Live preview</a>
@@ -105,7 +105,7 @@ const Projects = () => {
                                                     src={s5}
                                                     alt=""
                                                 />
-                                               
+
                                                 <div className="absolute inset-x-0 bottom-0 text-center opacity-0 transform translate-y-2/4 group-hover:translate-y-0 group-hover:opacity-100 transition duration-700 ease-in-out">
                                                     <button className="bg py-2 px-4 w-full transition-opacity  text-white bg-gradient-to-r from-[#3d155f] to-[#cbf3819b] hover:gradient-hover focus:outline-none focus:border-blue-300 font-semibold">
                                                         <a href="https://goldsmith-org.web.app/">Live preview</a>
@@ -133,7 +133,11 @@ const Projects = () => {
                         </div>
                         <div className='mt-14 space-y-4 mb-16 w-4/5 mx-auto'>
                             <h1 className='font-semibold text-3xl text-[#474747]'>GoldSmith</h1>
-                            <p className='text-[#3d155f] '>Full stack development of an Education website In the LandingPage there are Carousel, Popular added classes, And Popular Instructors.</p>
+                            <p className='text-[#3d155f] '>
+                                Trending
+                                GoldSmith - Jewelry Store WooCommerce Elementor Theme - WooCommerce eCommerce
+                                Live Preview
+                                Jewelry Store, Jewel, Jewellery, Gem Shop, Diamond, Jeweler Theme/Website Builder – Elementor Based Responsive Multipurpose Modern AJAX E-Commerce</p>
                             <div className="flex gap-3 flex-wrap leading-loose">
                                 <p className="bg-white py-1 px-6 rounded-full">HTML5</p>
                                 <p className="bg-white py-1 px-6 rounded-full">CSS</p>
@@ -215,7 +219,7 @@ const Projects = () => {
                         </div>
                         <div className='mt-14 space-y-4 mb-16 w-4/5 mx-auto'>
                             <h1 className='font-semibold text-3xl text-[#474747]'>Mentoring</h1>
-                            <p className='text-[#3d155f] '>Developed a responsive and interactive Toys Marketplace web app using MERN stack.</p>
+                            <p className='text-[#3d155f] '>Developed a responsive and interactive Online Courses & Education  web app using MERN stack.</p>
                             <div className="flex fle gap-3 flex-wrap leading-loose">
                                 <p className="bg-white py-1 px-6 rounded-full">HTML</p>
                                 <p className="bg-white py-1 px-6 rounded-full">CSS</p>
