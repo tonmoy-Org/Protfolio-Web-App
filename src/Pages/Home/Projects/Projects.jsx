@@ -25,7 +25,7 @@ const Projects = () => {
                 data-aos-anchor-placement="center-bottom"
                 data-aos-duration="1000">
                 <h2 className="text-4xl font-bold text-[#4831d4]">Latest Work</h2>
-                <p className="py-3 text-[18px] text-[#3d155f]">One of my best 5 of  Projects</p>
+                <p className="py-3 text-[18px] text-[#3d155f]">One of my  4 of work</p>
             </div>
             {/* projects */}
             <div>
@@ -118,7 +118,6 @@ const Projects = () => {
                                                     src={s6}
                                                     alt=""
                                                 />
-                                                {/* <p className="text-white font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Add to cart & Checkout.</p> */}
                                                 <div className="absolute inset-x-0 bottom-0 text-center opacity-0 transform translate-y-2/4 group-hover:translate-y-0 group-hover:opacity-100 transition duration-700 ease-in-out">
                                                     <button className="bg py-2 px-4 w-full transition-opacity  text-white bg-gradient-to-r from-[#3d155f] to-[#cbf3819b] hover:gradient-hover focus:outline-none focus:border-blue-300 font-semibold">
                                                         <a href="https://goldsmith-org.web.app/">Live preview</a>
@@ -283,7 +282,7 @@ const Projects = () => {
                     </div>
 
                     {/* project-4 */}
-                    <div className='lg:flex flex-row-reverse gap-8 items-center lg:mt-16' data-aos="fade-up"
+                    {/* <div className='lg:flex flex-row-reverse gap-8 items-center lg:mt-16' data-aos="fade-up"
                         data-aos-duration="1200">
                         <div className='mt-8 lg:mt-0 mx-8 lg:mx-0'>
                             <div className="relative lg:w-[650px] overflow-hidden">
@@ -320,7 +319,7 @@ const Projects = () => {
                                 </button>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
