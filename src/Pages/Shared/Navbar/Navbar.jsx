@@ -47,7 +47,7 @@ const Navbar = () => {
                 <div className="lg:flex lg:items-center lg:justify-between">
                     <Link className="flex items-center" to='/'>
                         <img className="w-10 hidden lg:block" src={logo} alt="" />
-                        <span style={{ fontFamily: "Protest Revolution, sans-serif", fontWeight: 700, fontStyle: "normal" }} className="font-extrabold text-[2rem] text-[#4831d4] font-mono ">Tonmoy</span>
+                        <span style={{ fontFamily: "Protest Revolution, sans-serif", fontWeight: 700, fontStyle: "normal" }} className="font-extrabold hidden lg:block text-[2rem] text-[#4831d4] font-mono ">Tonmoy</span>
                     </Link>
 
                     <div className='lg:flex lg:justify-end lg:items-center gap-8 lg:py-2'>
