@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from '../../../assets/logo/letter-t.png';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import Links from "./Links";
-
+import logo from '../../../assets/logo/letter-t-.png'
 
 const Navbar = () => {
     const routes = [
@@ -28,7 +27,6 @@ const Navbar = () => {
 
     const handleLinkClick = () => {
         setOpen(false);
-        console.log('hello')
     };
 
     return (
@@ -37,7 +35,7 @@ const Navbar = () => {
                 <div>
                     <Link className="flex items-center" to='/'>
                         <img className="w-10" src={logo} alt="" />
-                        <span className="font-extrabold text-[1.6rem] text-[#4831d4] font-mono">Tonmoy</span>
+                        <span style={{ fontFamily: "Protest Revolution, sans-serif", fontWeight: 600, fontStyle: "normal" }} className="font-extrabold text-[2rem] text-[#4831d4] font-mono">Tonmoy</span>
                     </Link>
                 </div>
                 <span onClick={() => setOpen(!open)} >{open === true
@@ -49,9 +47,7 @@ const Navbar = () => {
                 <div className="lg:flex lg:items-center lg:justify-between">
                     <Link className="flex items-center" to='/'>
                         <img className="w-10 hidden lg:block" src={logo} alt="" />
-                        <span className="text-[1.6rem] font-mono hidden lg:block font-extrabold text-[#4831d4]">
-                            Tonmoy
-                        </span>
+                        <span style={{ fontFamily: "Protest Revolution, sans-serif", fontWeight: 700, fontStyle: "normal" }} className="font-extrabold text-[2rem] text-[#4831d4] font-mono ">Tonmoy</span>
                     </Link>
 
                     <div className='lg:flex lg:justify-end lg:items-center gap-8 lg:py-2'>
