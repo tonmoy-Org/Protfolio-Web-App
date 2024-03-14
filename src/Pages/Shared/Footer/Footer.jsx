@@ -11,13 +11,19 @@ const Footer = () => {
         <div>
             <div>
                 <ScrollToTop
-                    style={{ bottom: '90px', right: '15px', borderRadius: '8%' }}
+                    style={{
+                        bottom: '88px',
+                        right: '32px',
+                        borderRadius: '8%',
+                        backgroundColor: '#4831d4', // Add your desired background color here
+                    }}
                     width='40'
                     viewBox='0 0 250 200'
                     smooth
                     top={400}
-                    color="#3B82F6"
+                    color="#ffff"
                 />
+
             </div>
             <div>
                 <div className="grid grid-flow-col gap-4">

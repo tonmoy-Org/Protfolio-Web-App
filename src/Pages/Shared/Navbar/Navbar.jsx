@@ -30,12 +30,12 @@ const Navbar = () => {
     };
 
     return (
-        <nav className='bg-white border-b-2 border-[#7a7a7a4f]'>
-            <div className='lg:hidden flex justify-between items-center m-5 px-7'>
+        <nav className='bg-white'>
+            <div className='lg:hidden flex justify-between items-center py-2 px-5'>
                 <div>
                     <Link className="flex items-center" to='/'>
-                        <img className="w-10" src={logo} alt="" />
-                        <span style={{ fontFamily: "Protest Revolution, sans-serif", fontWeight: 600, fontStyle: "normal" }} className="font-extrabold text-[2rem] text-[#4831d4] font-mono">Tonmoy</span>
+                        <img className="w-8" src={logo} alt="" />
+                        <span style={{ fontFamily: "Protest Revolution, sans-serif", fontWeight: 600, fontStyle: "normal" }} className="font-extrabold text-[1.6rem] text-[#4831d4] font-mono">Tonmoy</span>
                     </Link>
                 </div>
                 <span onClick={() => setOpen(!open)} >{open === true
