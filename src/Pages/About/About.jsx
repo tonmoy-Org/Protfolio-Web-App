@@ -52,7 +52,7 @@ const About = () => {
                         <div className="about-container">
                             <div className="about">
                                 <LazyLoad>
-                                    <img src={myPicture} className="w-12/12 mx-auto px-2" />
+                                    <img src={myPicture} className="max-w-lg mx-auto px-2" />
                                 </LazyLoad>
                             </div>
                         </div>

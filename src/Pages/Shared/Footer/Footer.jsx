@@ -11,11 +11,11 @@ const Footer = () => {
         <div>
             <div>
                 <ScrollToTop
-                    style={{ bottom: '100px', right: '37px', borderRadius: '10%' }}
+                    style={{ bottom: '90px', right: '15px', borderRadius: '8%' }}
                     width='40'
                     viewBox='0 0 250 200'
                     smooth
-                    top={600}
+                    top={400}
                     color="#3B82F6"
                 />
             </div>

@@ -28,7 +28,7 @@ const Banner = () => {
                 </div>
                 <div className='container-ex'>
                     <div className='example'>
-                        <img src={profile} className="lg:max-w-sm max-w-xs mx-auto" />
+                        <img src={profile} className="max-w-xs mx-auto" />
                     </div>
                 </div>
             </div>

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import p1 from '../../../assets/projects//p2.png';
 import p2 from '../../../assets/projects/p1.png';
-import p3 from '../../../assets/projects/p3.png';
 import p4 from '../../../assets/projects/p4.png';
 import p5 from '../../../assets/projects/p5.png';
 import './Projects.css';

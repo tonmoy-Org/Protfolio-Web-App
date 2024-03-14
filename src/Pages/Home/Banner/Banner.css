@@ -134,3 +134,67 @@
         background: linear-gradient(90deg, #4831d4 72%, #ccf381 28%)
     }
 }
+
+
+@media (min-width: 2100px) {
+    .example::before {
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        width: 90%;
+        height: 90%;
+        box-sizing: border-box;
+        border: 3px solid white;
+        z-index: -1;
+    }
+
+    .example img {
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+
+    .example {
+        transform: translate(4%, 2%);
+        padding: 0px 30px 30px 0px;
+    }
+
+
+
+    .banner-bg {
+        background: linear-gradient(90deg, #4831d4 66%, #ccf381 34%)
+    }
+}
+
+
+@media (min-width: 2720px) {
+    .example::before {
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        width: 90%;
+        height: 90%;
+        box-sizing: border-box;
+        border: 3px solid white;
+        z-index: -1;
+    }
+
+    .example img {
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+
+    .example {
+        transform: translate(4%, 2%);
+        padding: 0px 30px 30px 0px;
+    }
+
+
+
+    .banner-bg {
+        background: linear-gradient(90deg, #4831d4 62%, #ccf381 38%)
+    }
+}
