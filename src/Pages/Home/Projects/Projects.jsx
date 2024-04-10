@@ -1,8 +1,7 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Typography, Button, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia } from '@mui/material';
 import { makeStyles } from '@mui/styles';
-import p1 from '../../../assets/projects/p2.png';
+import c1 from '../../../assets/projects/c1.png';
 import m1 from '../../../assets/projects/m1.png';
 import p4 from '../../../assets/projects/p4.png';
 
@@ -51,7 +50,7 @@ const Projects = () => {
         {
             name: 'Toy Zone',
             description: 'Developed a responsive and interactive Toys Marketplace web app using MERN stack.',
-            image: p1,
+            image: c1,
             livePreviewLink: 'https://toy-marketplace-client-26cd2.web.app/',
             githubLink: 'https://github.com/tonmoy-Org/Toys-marketplace-client',
             technologies: ['HTML', 'CSS', 'Tailwind', 'JavaScript', 'React.Js', 'Node.Js', 'Express.Js', 'MongoDB'],
