@@ -52,7 +52,7 @@ const Projects = () => {
             name: 'Toy Zone',
             description: 'Developed a responsive and interactive Toys Marketplace web app using MERN stack.',
             image: p1,
-            livePreviewLink: 'https://toy-market-place-fa2a9.web.app/',
+            livePreviewLink: 'https://toy-marketplace-client-26cd2.web.app/',
             githubLink: 'https://github.com/tonmoy-Org/Toys-marketplace-client',
             technologies: ['HTML', 'CSS', 'Tailwind', 'JavaScript', 'React.Js', 'Node.Js', 'Express.Js', 'MongoDB'],
         },
