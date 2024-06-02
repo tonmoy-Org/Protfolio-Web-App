@@ -5,7 +5,7 @@ import c1 from '../../../assets/projects/c1.png';
 import m1 from '../../../assets/projects/m1.png';
 import p4 from '../../../assets/projects/p4.png';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     projectCard: {
         maxWidth: '650px',
         overflow: 'hidden',

@@ -13,6 +13,7 @@ import sbs3 from '../../../assets/work/photo_2024-03-14_00-29-39.jpg';
 import sbs4 from '../../../assets/work/Screenshot 2024-03-14 015843.png';
 import E1 from '../../../assets/work/E1.png';
 import E2 from '../../../assets/work/E2.png';
+import shatamoli from '../../../assets/work/shatamuli.png';
 
 const CurrentWork = () => {
     return (
@@ -24,6 +25,27 @@ const CurrentWork = () => {
                 <Typography variant="body1" className="py-3 text-[18px] text-[#3d155f]">
                     Client Project
                 </Typography>
+            </div>
+            <div className="mb-32 max-w-screen-xl mx-auto">
+                <div className="lg:flex mt-16 justify-center gap-8 items-center" data-aos="fade-up" data-aos-duration="1200">
+                    <div className="mt-14 space-y-4 mb-16 w-4/5 mx-auto">
+                        <Typography variant="h4" className="font-semibold text-[#474747]">
+                            শতমূলী সংগঠন
+                        </Typography>
+                        <Typography variant="body1" className="text-[#3d155f]">
+                            শতমূলী সংগঠন is a web application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack, enriched with Material-UI (Mui) for sleek and modern design elements.
+                        </Typography>
+
+                        {/* <Link to="https://exeservice.online/">
+                            <Button sx={{ marginTop: 3 }} variant="contained" className="px-12 py-2 mt-10 text-white bg-gradient-to-r from-blue-500 to-[#cbf3819b] hover:gradient-hover focus:outline-none focus:border-blue-300 font-semibold">
+                                Go Live
+                            </Button>
+                        </Link> */}
+                    </div>
+                    <div className="mt-8 lg:mt-0 mx-3 lg:mx-0">
+                        <img src={shatamoli} alt="" />
+                    </div>
+                </div>
             </div>
             <div className="mb-32 max-w-screen-xl mx-auto">
                 <div className="lg:flex mt-16 justify-center gap-8 items-center" data-aos="fade-up" data-aos-duration="1200">
